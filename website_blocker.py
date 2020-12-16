@@ -1,7 +1,9 @@
 from time import *  
 from datetime import *  
-  
-host_path = r"/etc/hosts"  
+#For Windows 
+host_path = r"C:\System32\drivers\etc\hosts"
+#For Linux Uncomment below Code
+#host_path = r"/etc/hosts"  
 redirect = "127.0.0.1"
 #Add Names of website you want to block
 websites = ["www.facebook.com", "https://www.facebook.com"]  
